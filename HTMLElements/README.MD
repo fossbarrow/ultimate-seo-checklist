@@ -23,11 +23,14 @@ HTML uses `<meta>` tags to define metadata about a HTML document. These tags are
 
 It has a few Attributes:
 
-| Attribute | Description |
-| name | Describes the name for the metadata |
-| content | Describes the value of the metadata |
-| charset | Describes the character encoding for the HTML document |
-| http-equip | Provides the HTTP header for information |
+| Attribute  | Description                                            |
+| ---------- | ------------------------------------------------------ |
+| name       | Describes the name for the metadata                    |
+| content    | Describes the value of the metadata                    |
+| charset    | Describes the character encoding for the HTML document |
+| http-equip | Provides the HTTP header for information               |
+
+<br>
 
 ### Description
 
