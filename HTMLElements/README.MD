@@ -106,7 +106,6 @@ Search engines cannot determine what images are trying to convey. That’s when 
 
 A meta refresh tag tells the web browser to redirect the user to a different URL after a set amount of time.
 
-Meta Refresh Redirect is important because it gives ranking authority to the redirect target URL as possible when the right redirect parameters are set.
-
+Meta Refresh Redirect is important because it gives ranking authority to the redirect target URL as much as possible when the right redirect parameters are set.
 
 `<meta http-equiv="refresh" content="2;url=http://example.com" />`
