@@ -20,3 +20,15 @@ Perhaps one of the most important HTML tags for SEO is that of the title. This i
 <title>About | Fossbarrow</title>
 <title>Home | Fossbarrow</title>
 ```
+## Use Body Tags
+
+The <body> tag defines the document's body.
+The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+ 
+## The href Attribute
+
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href= www.Google.com>Google</a>
+  
+## The src Attribute
+
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:  <img src="Github_Logo.jpg"> 
