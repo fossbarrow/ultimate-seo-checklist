@@ -34,19 +34,19 @@ It has a few Attributes:
 
 ### Description
 
-Apart from the title your website needs to have a description we can specify it using the meta tags.
+Defines the description about the website. The description should be up to 160 characters.
 
 `<meta name="description" content="This is a short description about your site." >`
 
 ### Author
 
-The Author of the website can also be defined.
+Defines the author of the website.
 
 `<meta name="author" content="Foo Bar" >`
 
 ### Keywords
 
-Defines the keywords for search engines
+Defines the keywords for search engines.
 
 `<meta name="keyword" content="HTML CSS Javascript" >`
 
@@ -58,7 +58,7 @@ Defines the viewport to make sure the website looks good on all devices.
 
 ### Charset
 
-Defines the Charset(Character Encoding) which your website uses
+Defines the Charset (Character Encoding) which your website uses.
 
 `<meta charset="UTF-8" >`
 
