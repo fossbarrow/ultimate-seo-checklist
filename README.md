@@ -11,6 +11,13 @@ This repository contains a set of folders, where the directory structure is mean
 
 Visit the directories respectively to get some real, nice, tips given from people from all around the globe!
 
-## Pull-Requests
+## Contributing
 
 Feel free to add a pull-request containing a new directory, a new SEO checklist tips, spelling errors and/or format fixes!
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Credits
+
+- [PatricNox](https://github.com/PatricNox)
+- [All Contributors](../../contributors)
