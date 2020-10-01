@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/fossbarrow/ultimate-seo-checklist">
-    <img src="./" alt="Logo" width="200" height="200">
+    <img src="./seo.png" alt="Logo" width="200" height="200">
   </a>
 
    <h1 align="center"> The Ultimate SEO Checklist
@@ -26,13 +26,6 @@ Visit the directories respectively to get some real, nice, tips given from peopl
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
-
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-<p align ="center">
-
-<img src = "./assets/ss.png"  >
 
 <p float ="right">
 
