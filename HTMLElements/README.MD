@@ -67,6 +67,29 @@ Defines the Charset (Character Encoding) which your website uses.
 The <body> tag defines the document's body.
 The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
+## Use Semantic Tags
+
+Semantics in HTML means "role" or "purpose". When we use `<div></div>` tags they hold no meaning which is saying they are generic tags. They can hold any content inside of them but it does not provide us enough information.
+
+Semantic Tags clearly describe the meaning of the content they contain to everyone and make it easier for search engines and web crawlers to search for information effectively.
+
+Here are some common Semantic Tags :
+
+| Attribute                   | Description                                                 |
+| --------------------------- | ----------------------------------------------------------- |
+| `<article></article>`       | describes independent, self-contained content               |
+| `<aside></aside>`           | describes indirectly related content like sidebars          |
+| `<code></code>`             | describes code snippets contained in web documents          |
+| `<figcaption></figcaption>` | describes the content of the parent `<figure>` element      |
+| `<figure></figure>`         | describes content like illustrations and diagrams           |
+| `<footer></footer>`         | represents a footer for the parent element                  |
+| `<header></header>`         | contains introductory content like images or heading        |
+| `<main></main>`             | represents most of the content in the `body` section        |
+| `<nav></nav>`               | contains navigation links to the same or any other document |
+| `<section></section>`       | describes a section in a document for a particular topic    |
+| `<table></table>`           | describes a table containing various types of data          |
+| `<time></time>`             | represents a specific period in time                        |
+
 ## The href Attribute
 
 The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href= www.Google.com>Google</a>
