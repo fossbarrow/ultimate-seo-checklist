@@ -101,3 +101,10 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 ## Use Alt tags in Images
 
 Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="Github_Logo.jpg" alt="Github Logo">
+
+## Meta Refresh Redirect
+
+A meta refresh tag tells the web browser to redirect the user to a different URL after a set amount of time.
+
+
+`<meta http-equiv="refresh" content="2;url=http://example.com" />`
