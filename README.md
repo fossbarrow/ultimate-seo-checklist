@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/fossbarrow/ultimate-seo-checklist">
-    <img src="./seo.png" alt="Logo" width="200" height="200">
+    <img src="./seo.svg" alt="Logo" width="200" height="200">
   </a>
 
    <h1 align="center"> The Ultimate SEO Checklist
