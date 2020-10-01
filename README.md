@@ -6,11 +6,6 @@
 
 <h1 align="center">The Ultimate SEO Checklist</h1>
 
-<p class="flex">
- <a href="https://github.com/fossbarrow/ultimate-seo-checklistissues">Report Bug</a> |
- <a href="https://github.com/fossbarrow/ultimate-seo-checklist/issues">Request Feature</a> 
-</p>
-
 <p>
 
  [![PR friendly repository](https://img.shields.io/badge/Pull--Request-are%20welcome!-ff69b4)](/compare)
