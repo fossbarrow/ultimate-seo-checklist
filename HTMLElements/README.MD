@@ -64,7 +64,7 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 | twitter:image          | URL of image to use in the card. Images must be less than 5MB in size. JPG, PNG, WEBP and GIF formats are supported. Only the first frame of an animated GIF will be used. SVG is not supported.|
 | twitter:site          | @username of website. Either `twitter:site` or `twitter:site:id` is required. |
 | twitter:card          | The card type ,Used with all cards |
-| twitter:image:alt          | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters. |
+| twitter:image:alt          | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters. | 
 
 
 ### Author
