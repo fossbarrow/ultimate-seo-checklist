@@ -48,17 +48,24 @@ These are the most basic meta tags that you should use for all content types:
 
 | Tag             | Description                                               |
 | ----------      | ------------------------------------------------------    |
-| og:url          | Describes The canonical URL for your page. This should be 
-                    the undecorated URL, without session variables, 
-                    user identifying parameters, or counters.                 |
-| og:title        | Describes the The title of your article without any 
-                    branding such as your site name.                          |
-| og:description  | Describes the A brief description of the content, 
-                    usually between 2 and 4 sentences.                        |
-| og:image        | The URL of the image that appears when someone 
-                    shares the content to Facebook                            |
+| og:url          | Describes The canonical URL for your page. This should be the undecorated URL, without session variables,user identifying parameters, or counters.                 |
+| og:title        | Describes the The title of your article without any branding such as your site name.                          |
+| og:description  | Describes the A brief description of the content, usually between 2 and 4 sentences.                        |
+| og:image        | The URL of the image that appears when someone shares the content to Social media                            |
 | og:type         | Describes The type of media of your content.              |
 | og:locale       | Describes The The locale of the resource.                 |
+
+Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, but uses the “twitter” prefix instead of “og”. As with Facebook, only a few are required. The type of display format we’re requesting from Twitter is also specified:
+
+| Tag             | Description                                               |
+| ----------      | ------------------------------------------------------    |
+| twitter:title          | Title of content (max 70 characters)               |
+| twitter:description          | Description of content (maximum 200 characters) Used with summary, summary_large_image, player cards    |
+| twitter:image          | URL of image to use in the card. Images must be less than 5MB in size. JPG, PNG, WEBP and GIF formats are supported. Only the first frame of an animated GIF will be used. SVG is not supported.|
+| twitter:site          | @username of website. Either `twitter:site` or `twitter:site:id` is required. |
+| twitter:card          | The card type ,Used with all cards |
+| twitter:image:alt          | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters. |
+
 
 ### Author
 
