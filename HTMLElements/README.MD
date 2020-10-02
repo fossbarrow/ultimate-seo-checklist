@@ -38,6 +38,28 @@ Defines the description about the website. The description should be up to 160 c
 
 `<meta name="description" content="This is a short description about your site." >`
 
+<br>
+
+## Use OpenGraph Meta Tags
+
+Open Graph meta tags are snippets of code that control how URLs are displayed when shared on social media.
+
+These are the most basic meta tags that you should use for all content types:
+
+| Tag             | Description                                               |
+| ----------      | ------------------------------------------------------    |
+| og:url          | Describes The canonical URL for your page. This should be 
+                    the undecorated URL, without session variables, 
+                    user identifying parameters, or counters.                 |
+| og:title        | Describes the The title of your article without any 
+                    branding such as your site name.                          |
+| og:description  | Describes the A brief description of the content, 
+                    usually between 2 and 4 sentences.                        |
+| og:image        | The URL of the image that appears when someone 
+                    shares the content to Facebook                            |
+| og:type         | Describes The type of media of your content.              |
+| og:locale       | Describes The The locale of the resource.                 |
+
 ### Author
 
 Defines the author of the website.
