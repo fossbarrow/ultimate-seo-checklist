@@ -130,3 +130,33 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 ## Use Alt tags in Images
 
 Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="Github_Logo.jpg" alt="Github Logo">
+
+## Put Important Information in Lists
+
+Lists <li> tags are a great way to break up blocks of text and highlight important content.
+
+We have three types of lists: <ul> and <ol> and <dl>
+
+Creating an unordered list [<ul>] puts them in a bullets. 
+For example:
+<ul>
+  <li>Milk</li>
+  <li>Tea</li>
+</ul>
+
+Creating an ordered list [<ol>] on the otherhand puts the items in that list in a sequential or hierarchical system.
+For example:
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+</ol>
+
+Creating a description list [<dl>] create a list of terms, with a description of each term immediately after it.
+For example: 
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+</dl>
+
+Lists tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
+It is better to create true lists instead of symbols, such as dashes or hyphens as it is easier for the search engine bots to easily recognize them.
