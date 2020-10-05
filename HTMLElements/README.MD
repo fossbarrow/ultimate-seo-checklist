@@ -153,7 +153,7 @@ Here is the hierarchy of header tags:
 In terms of SEO ,<meta> tag is the most important tag which engines us to detect what kind a content your site is actually offering . <Meta> tag defines metadata about your html documents.
 If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then 
 Here is the syntax :-
-<meta name="keywords" content= "HTML, CSS. JAVASCRIPT">
+<meta name="keywords" content= "HTML,CSS,JAVASCRIPT">
 If i want to describe the viewport for my website (how my website will appear). Then i'll use the following syntax in my head tag:-
 <head>
 <meta name="viewport" content ="width=device=width, initial-scale=1.0"> 
