@@ -149,12 +149,27 @@ Here is the hierarchy of header tags:
 - `<h3></h3>` – reflects points in regards to the topic.
 - `<h4></h4>` – supports points from `<h3>`.
 - `<h5></h5>` – not often used, but great for supporting points of `<h4>`.
-## The Meta tag 
+
+## The Meta tag
+
 In terms of SEO ,<meta> tag is the most important tag which engines us to detect what kind a content your site is actually offering . <Meta> tag defines metadata about your html documents.
-If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then 
+If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then
 Here is the syntax :-
+
 <meta name="keywords" content= "HTML,CSS,JAVASCRIPT">
 If i want to describe the viewport for my website (how my website will appear). Then i'll use the following syntax in my head tag:-
 <head>
 <meta name="viewport" content ="width=device=width, initial-scale=1.0"> 
 <head>
+
+## Using Descriptive Anchor Text
+
+For better seo, it is better to use descriptive anchor text for internal links, instead of very short call to action links like "click here" or "this page".
+
+`<a href="http://example.com">Good descriptive anchor text</a>`
+
+For example you are creating a Portfolio site and you want to link to your twitter page or facebook page, make your anchor text be something like "My twitter page" or "My facebook page" or just something similar but descriptive.
+
+If your in a situation where you need to add a particular link in multiple places, it is thought a best practice to mix up the internal link anchor text quite a bit. Something like "facebook home page" and "my Facebook page" even though they might have different anchor text names, they still link to the same page.
+
+What is explained above comes in really handy when you have two pages that share the same link. It is very good practice to give them seperate anchor text. [You can know more here](https://backlinko.com/hub/seo/internal-links)
