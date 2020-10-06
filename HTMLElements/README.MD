@@ -165,4 +165,5 @@ If i want to describe the viewport for my website (how my website will appear). 
 ## Use Alt tag/attribute
 
 <alt> tag is an alternative tag also known as "alt attribute" which is applied in the image tags to provide the text alternative for search engines And today tagging images and video is essential to having your page rank.
-These titles essentially tell the search engines what content is actually your site offering .For example if you're having chocolate image in your site then you can use alt tag as <img alt="chocolate"> .If your site will not load then "chocolate" will display as an alternative.
+These titles essentially tell the search engines what content is actually your site offering .
+For example if you're having chocolate image in your site then you can use alt tag as <img alt="chocolate"> .If your site will not load then "chocolate" will display as an alternative.
