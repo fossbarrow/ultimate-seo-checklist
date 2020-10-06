@@ -151,10 +151,13 @@ Here is the hierarchy of header tags:
 - `<h5></h5>` – not often used, but great for supporting points of `<h4>`.
 ## The Meta tag 
 In terms of SEO ,<meta> tag is the most important tag which engines us to detect what kind a content your site is actually offering . <Meta> tag defines metadata about your html documents.
-If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then 
+If my webpage contains the data about languages likeg html, css and javascript and i want to provide this information to my search engine then 
 Here is the syntax :-
 <meta name="keywords" content= "HTML,CSS,JAVASCRIPT">
 If i want to describe the viewport for my website (how my website will appear). Then i'll use the following syntax in my head tag:-
 <head>
 <meta name="viewport" content ="width=device=width, initial-scale=1.0"> 
 <head>
+
+## Use Alt tag/attribute
+<alt> tag is an alternative tag also known as "alt attribute" which is applied in the image tags to provide the text alternative for search engines And today tagging images and video is essential to having your page rank.These titles essentially tell the search engines what content is actually your site offering .For example if you're having chocolate image in your site then you can use alt tag as <img alt="chocolate"> .If your site will not load then "chocolate" will display as an alternative.
