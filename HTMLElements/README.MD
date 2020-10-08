@@ -117,18 +117,20 @@ Here are some common Semantic Tags :
 | `<section></section>`       | describes a section in a document for a particular topic    |
 | `<table></table>`           | describes a table containing various types of data          |
 | `<time></time>`             | represents a specific period in time                        |
+| `<details></details>`       | provides additional content details for the user to view    |
+| `<summary></summary>`       | describes a visible heading under the `<details>` element   |
 
 ## The href Attribute
 
-The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href= www.Google.com>Google</a>
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href="https://www.google.com">Google</a>
 
 ## The src Attribute
 
-The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="Github_Logo.jpg">
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
 
 ## Use Alt tags in Images
 
-Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="Github_Logo.jpg" alt="Github Logo">
+Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300" alt="Github Logo">
 
 ## Use Header Tags
 
