@@ -66,6 +66,72 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 | twitter:card        | The card type ,Used with all cards                                                                                                                                                               |
 | twitter:image:alt   | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.                                                           |
 
+<br>
+
+## Use Schema Markup
+Schema markup is an information you can add to your website in microdata HTML, RDFa, or JSON-LD formats (semantic vocabulary) that helps the search engines return more informative results for users. Schema tells the search engines what your data means, not just what it says.
+
+[Schema.org](https://schema.org/) is the centralized home on the web for the Schema project, a collaboration between Google, Bing, Yahoo! and Russian search engine Yandex to standardize structured markup.
+
+Here is an example of a [LocalBusiness](https://schema.org/LocalBusiness):
+* Without markup:
+```
+<h1>Beachwalk Beachwear & Giftware</h1>
+A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.
+3102 Highway 98
+Mexico Beach, FL
+Phone: 850-648-4200
+```
+
+* With Microdata:
+```
+<div itemscope itemtype="https://schema.org/LocalBusiness">
+  <h1><span itemprop="name">Beachwalk Beachwear & Giftware</span></h1>
+  <span itemprop="description"> A superb collection of fine gifts and clothing
+  to accent your stay in Mexico Beach.</span>
+  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">3102 Highway 98</span>
+    <span itemprop="addressLocality">Mexico Beach</span>,
+    <span itemprop="addressRegion">FL</span>
+  </div>
+  Phone: <span itemprop="telephone">850-648-4200</span>
+</div>
+```
+
+* With RDFa:
+```
+<div vocab="https://schema.org/" typeof="LocalBusiness">
+  <h1><span property="name">Beachwalk Beachwear & Giftware</span></h1>
+  <span property="description"> A superb collection of fine gifts and clothing
+  to accent your stay in Mexico Beach.</span>
+  <div property="address" typeof="PostalAddress">
+    <span property="streetAddress">3102 Highway 98</span>
+    <span property="addressLocality">Mexico Beach</span>,
+    <span property="addressRegion">FL</span>
+  </div>
+  Phone: <span property="telephone">850-648-4200</span>
+</div>
+```
+
+* With JSON-LD:
+```js
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mexico Beach",
+    "addressRegion": "FL",
+    "streetAddress": "3102 Highway 98"
+  },
+  "description": "A superb collection of fine gifts and clothing to accent your stay in Mexico Beach.",
+  "name": "Beachwalk Beachwear & Giftware",
+  "telephone": "850-648-4200"
+}
+</script>
+```
+
 ### Author
 
 Defines the author of the website.
