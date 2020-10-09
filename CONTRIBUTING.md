@@ -11,7 +11,7 @@ This repository serves as a database for info regarding how to improve SEO, with
 A pull request should _not_ contain a list of things that's good for SEO, but rather subjects featuring an example, a detail description of how it's used and why it's good for SEO.
 
 
-Example:[Robots.txt for SEO](https://github.com/fossbarrow/ultimate-seo-checklist/tree/main/Robots.txt) 
+Example: [Robots.txt for SEO](https://github.com/fossbarrow/ultimate-seo-checklist/tree/main/Robots.txt) 
 
 > Credits: [JamesS-M](https://github.com/JamesS-M)
 
