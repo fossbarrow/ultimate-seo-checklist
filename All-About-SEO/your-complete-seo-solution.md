@@ -10,6 +10,25 @@ Track the ranking changes of your web pages on Google, Google Mobile and Bing in
 
 Show search engines that your web pages are relevant. SEOprofiler offers multiple tools that help you to make sure that search engines will prefer your web pages.
 
+Here is a list of things you can do to improve On-Page SEO:
+ - Add page Titles
+ - Add Meta Descriptions 
+ - Review Heading Tags 
+ - Review URL's
+ - Reduce image size
+ - Add Alt Texts
+ - Add Bread Crumbs
+ - Add internal links in your content
+ - Add a Sitemap 
+ - Add a [Schema](https://schema.org/)
+ - Verify ownership in Google Search Console
+ - Redirect 404 URL's
+ - Add Rich Snippets 
+ - Verify if your website is mobile friendly
+ - Optimize page load time
+ - Add robots.txt file
+ - Add Tags Rel="prev" and Rel="next" to indicate the relationship between component URLs
+ 
 ## Off-page optimization
 
 Optimize the links that point to your site and remove bad links. Improve the backlink structure of your web pages and get higher rankings on Google and other search engines.
