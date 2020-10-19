@@ -38,4 +38,4 @@ The website audit tool in SEOprofiler identifies errors on your web pages that c
 
 Backlinks are links from a page on one website to another. If someone links to your site, then you have a backlink from them. If you link to another website, then they have a backlink from you.
 
-Search engines like Google see backlinks as votes of confidence. Generally speaking, the more votes your web pages have, the more likely they are to rank for relevant search queries.
+Search engines like Google and Bing see backlinks as votes of confidence. Generally speaking, the more votes your web pages have, the more likely they are to rank for relevant search queries.
