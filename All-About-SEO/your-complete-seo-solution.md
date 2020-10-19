@@ -33,3 +33,9 @@ Connect your account to Google Analytics and offer your boss and your clients we
 ## Automated SEO audits
 
 The website audit tool in SEOprofiler identifies errors on your web pages that can cause problems with search engines. Remove these errors to improve your rankings.
+
+## Backlinks
+
+Backlinks are links from a page on one website to another. If someone links to your site, then you have a backlink from them. If you link to another website, then they have a backlink from you.
+
+Search engines like Google see backlinks as votes of confidence. Generally speaking, the more votes your web pages have, the more likely they are to rank for relevant search queries.
