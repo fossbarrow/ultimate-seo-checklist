@@ -271,3 +271,42 @@ For example:
 
 Lists tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
 It is better to create true lists instead of symbols, such as dashes or hyphens as it is easier for the search engine bots to easily recognize them.
+
+## Use indentation in your html pages 
+
+The use of indentation is an unwritten rule in the world of html but is highly recommended to use. First of all it makes reading a lot more relaxing. Second it will let you find things much more quickly. 
+
+An example:
+
+* Without indentation:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<p></p>
+<a></a>
+</body>
+</html>
+
+```
+
+* With indentation:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <a></a>
+</body>
+</html>
+```
