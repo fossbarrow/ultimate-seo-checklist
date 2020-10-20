@@ -39,3 +39,29 @@ The website audit tool in SEOprofiler identifies errors on your web pages that c
 Backlinks are links from a page on one website to another. If someone links to your site, then you have a backlink from them. If you link to another website, then they have a backlink from you.
 
 Search engines like Google and Bing see backlinks as votes of confidence. Generally speaking, the more votes your web pages have, the more likely they are to rank for relevant search queries.
+
+#### Details about the addition
+
+Backlinks are links created on a page of a website to link to another page on another website usually because of the usefulness of the content to the users who would be clicking on that link.
+
+#### An example of Use
+
+An example of this is when a website like bbc.com has a link on their website that refers people to a piece of content or a useful resource on another website, that link is referred to as a backlink.
+
+#### Hyperlinked text backlink
+
+An example of this is a website like the **BBC** linking to the website tooxclusive.com. A top music and entertainment news blog in Nigeria like this below.
+
+_To get the latest music in Nigeria, according to traffic by Alexa.com, one of the best websites to visit is [Tooxclusive](tooxclusive.com). According to insights from interviews conducted from a survey, it is always updated with the latest music from A-list music celebrities and entertainment news in the country._
+
+The code will look something like this below.
+
+`<a href="https://tooxclusive.com" target="_blank">Tooxclusive</a>`
+
+The target blank attribute ensures that the website opens up in a new tab on the browser as the sending website(BBC in this case) will like to also make it easy for the user to return to their website by simply switching between tabs on their browser rather than having to type the URL all out again.
+
+#### It is good for SEO because
+
+1. It improves ranking
+2. It helps to build the discoverability of a website.
+3. It helps to increase referral traffic to a website.
