@@ -196,7 +196,19 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 
 ## Use Alt tags in Images
 
-Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300" alt="Github Logo">
+ The alt attribute provides an “alternative description” for the image. This description is normally not presented to the user, but will be under certain circumstances:
+
+    * Assistive technology — If the user is visually impaired, and is using a screen reader, the screen reader will read the alt description to the user.
+    * Images turned off — Some users prefer to surf the web with images turned off (to save bandwidth or to minimize distraction). These users will normally see the alt description instead of the image.
+    * Image failure — If an image fails to load for any reason (bad file name, connection problems), the user will usually see the alt description in place of the image.
+
+    ### Example
+
+        <img src="not-a-real-file-name.jpg" alt="Depending on your browser, you might see this message in place of the failed image.">
+
+    ##### Reference
+          https://www.w3.org/QA/Tips/altAttribute
+          https://www.w3schools.com/tags/att_img_alt.asp
 
 ## Use Header Tags
 
