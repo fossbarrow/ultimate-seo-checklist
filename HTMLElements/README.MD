@@ -196,21 +196,17 @@ The <img> tag is used to embed an image in an HTML page. The src attribute speci
 
 ## Use Alt tags in Images
 
- The alt attribute provides an “alternative description” for the image. This description is normally not presented to the user, but will be under certain circumstances:
+The alt attribute provides an “alternative description” for the image. This description is normally not presented to the user, but will be under certain circumstances:
 
-    * Assistive technology — If the user is visually impaired, and is using a screen reader, the screen reader will read the alt description to the user.
-    * Images turned off — Some users prefer to surf the web with images turned off (to save bandwidth or to minimize distraction). These users will normally see the alt description instead of the image.
-    * Image failure — If an image fails to load for any reason (bad file name, connection problems), the user will usually see the alt description in place of the image.
+* Assistive technology — If the user is visually impaired, and is using a screen reader, the screen reader will read the alt description to the user.
+* Images turned off — Some users prefer to surf the web with images turned off (to save bandwidth or to minimize distraction). These users will normally see the alt description instead of the image.
+* Image failure — If an image fails to load for any reason (bad file name, connection problems), the user will usually see the alt description in place of the image.
     
-    The alt description is also very helpful for search engines. Search engines have a hard time figuring out what the content of an image actually is. They are getting better at it, but identifying the subject of a photo or picture is extremely difficult. So search engines rely on the alt description to know what is actually in a picture (they also use the file name and other attributes). Additionally, in Google Image Search, the alt description is actually shown to the user.
+The alt description is also very helpful for search engines. Search engines have a hard time figuring out what the content of an image actually is. They are getting better at it, but identifying the subject of a photo or picture is extremely difficult. So search engines rely on the alt description to know what is actually in a picture (they also use the file name and other attributes). Additionally, in Google Image Search, the alt description is actually shown to the user.
 
-    ### Example
+### Example
+<img src="not-a-real-file-name.jpg" alt="Depending on your browser, you might see this message in place of the failed image.">
 
-        <img src="not-a-real-file-name.jpg" alt="Depending on your browser, you might see this message in place of the failed image.">
-
-    ##### Reference
-          https://www.w3.org/QA/Tips/altAttribute
-          https://www.w3schools.com/tags/att_img_alt.asp
 
 ## Use Header Tags
 
