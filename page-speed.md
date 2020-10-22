@@ -1,17 +1,17 @@
-<h1>Page Speed</h1>
+## Page Speed
 Page speed for the purpose of SEO is the length of time it takes to display all content on a page. 
 This includes all elements of a page including code, images and videos. Server and network performance also contribute to page speed. Beginning in 2017 Google stated that page speed will have an even greater
 affect on SEO for ranking factors in their search index. Google considers page speed as a practical indicator of user experience. 
 
-<h2>Here are some common causes that contribute to slow page speeds:</h2>
-Images and videos
-Web Application Firewalls
-Plugins and third party apps/integrations
-Scripts
-Large files
-Hosting issues include network and DNS 
+### Here are some common causes that contribute to slow page speeds:
+* Images and videos
+* Web Application Firewalls
+* Plugins and third party apps/integrations
+* Scripts
+* Large files
+* Hosting issues include network and DNS 
 
-<h2>Example site:</h2>
+### Example site:
 https://example.com
 
 Our example site example.com is a Wordpress install where blog posts are made on a daily basis. Each blog post includes multiple images and some contain videos.
@@ -25,22 +25,23 @@ CDN server locations available. This improves speed for the end user and also im
 
 After implementing these changes to our site we find that Pingdom now shows it takes less than 2 seconds to load the home page.    
 
+### Content Delivery Network
 ![Content Delivery Network](https://i.lensdump.com/i/061Oxz.jpg)   
 
 
-<h2>Why is it good for SEO?</h2>
+### Why is it good for SEO?
 Page speed is extremely important for SEO and fast page speeds provide a great user experience. Google has prioritized page speed in the past and in 2020 announced that the upcoming
 [Page Experience](https://developers.google.com/search/docs/guides/page-experience) will be implemented at some point in 2021. Page Experience will measure performance by a set of signals outlined
 by Google. Page speed is included under the Core Web Vitals as an essential component for SEO. Specifically, Google has defined a target metric Largest Contentful Paint (LCP) to be at <2.5 seconds. 
 LCP is a user-centric metric that focuses on perceived load time of the content.
 
-<h2>Testing sites:</h2>
-https://tools.pingdom.com
-https://www.thinkwithgoogle.com/feature/testmysite/
+### Testing sites:
+* https://tools.pingdom.com
+* https://www.thinkwithgoogle.com/feature/testmysite/
 
-<h2>Resources</h2>
-https://moz.com/blog/page-speed-optimization
-https://developers.google.com/web/tools/lighthouse
-https://developers.google.com/search/docs/guides/page-experience 
+### Resources
+* https://moz.com/blog/page-speed-optimization
+* https://developers.google.com/web/tools/lighthouse
+* https://developers.google.com/search/docs/guides/page-experience 
 
 
