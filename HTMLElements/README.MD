@@ -28,13 +28,13 @@ It has a few Attributes:
 | name       | Describes the name for the metadata                    |
 | content    | Describes the value of the metadata                    |
 | charset    | Describes the character encoding for the HTML document |
-| http-equip | Provides the HTTP header for information               |
+| HTTP-equip | Provides the HTTP header for information               |
 
 <br>
 
 ### Description
 
-Defines the description about the website. The description should be up to 160 characters.
+Defines the description of the website. The description should be up to 160 characters.
 
 `<meta name="description" content="This is a short description about your site." >`
 
@@ -48,28 +48,28 @@ These are the most basic meta tags that you should use for all content types:
 
 | Tag            | Description                                                                                                                                        |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| og:url         | Describes The canonical URL for your page. This should be the undecorated URL, without session variables,user identifying parameters, or counters. |
-| og:title       | Describes the The title of your article without any branding such as your site name.                                                               |
-| og:description | Describes the A brief description of the content, usually between 2 and 4 sentences.                                                               |
-| og:image       | The URL of the image that appears when someone shares the content to Social media                                                                  |
-| og:type        | Describes The type of media of your content.                                                                                                       |
-| og:locale      | Describes The The locale of the resource.                                                                                                          |
+| on: URL         | Describes The canonical URL for your page. This should be the undecorated URL, without session variables, user identifying parameters, or counters. |
+| on: title       | Describes the title of your article without any branding such as your site name.                                                               |
+| on: description | Describes the A brief description of the content, usually between 2 and 4 sentences.                                                               |
+| og: image       | The URL of the image that appears when someone shares the content to Social media                                                                  |
+| on: type        | Describes The type of media of your content.                                                                                                       |
+| og: locale      | Describes The The locale of the resource.                                                                                                          |
 
-Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, but uses the “twitter” prefix instead of “og”. As with Facebook, only a few are required. The type of display format we’re requesting from Twitter is also specified:
+Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, but uses the “Twitter” prefix instead of “dog”. As with Facebook, only a few are required. The type of display format we’re requesting from Twitter is also specified:
 
 | Tag                 | Description                                                                                                                                                                                      |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| twitter:title       | Title of content (max 70 characters)                                                                                                                                                             |
-| twitter:description | Description of content (maximum 200 characters) Used with summary, summary_large_image, player cards                                                                                             |
-| twitter:image       | URL of image to use in the card. Images must be less than 5MB in size. JPG, PNG, WEBP and GIF formats are supported. Only the first frame of an animated GIF will be used. SVG is not supported. |
-| twitter:site        | @username of website. Either `twitter:site` or `twitter:site:id` is required.                                                                                                                    |
-| twitter:card        | The card type ,Used with all cards                                                                                                                                                               |
-| twitter:image:alt   | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.                                                           |
+| Twitter:title       | Title of content (max 70 characters)                                                                                                                                                             |
+| Twitter:description | Description of content (maximum 200 characters) Used with summary, summary_large_image, player cards                                                                                             |
+| Twitter: image       | URL of an image to use in the card. Images must be less than 5MB in size. JPG, PNG, WEBP, and GIF formats are supported. Only the first frame of an animated GIF will be used. SVG is not supported. |
+| Twitter: site        | @username of website. Either `Twitter:site` or `Twitter:site:id` is required.                                                                                                                    |
+| Twitter: card        | The card type, Used with all cards                                                                                                                                                               |
+| Twitter:image: alt   | A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.                                                           |
 
 <br>
 
 ## Use Schema Markup
-Schema markup is an information you can add to your website in microdata HTML, RDFa, or JSON-LD formats (semantic vocabulary) that helps the search engines return more informative results for users. Schema tells the search engines what your data means, not just what it says.
+Schema markup is information you can add to your website in microdata HTML, RDFa, or JSON-LD formats (semantic vocabulary) that helps the search engines return more informative results for users. Schema tells the search engines what your data means, not just what it says.
 
 [Schema.org](https://schema.org/) is the centralized home on the web for the Schema project, a collaboration between Google, Bing, Yahoo! and Russian search engine Yandex to standardize structured markup.
 
@@ -165,7 +165,7 @@ The <body> element contains all the contents of an HTML document, such as headin
 
 Semantics in HTML means "role" or "purpose". When we use `<div></div>` tags they hold no meaning which is saying they are generic tags. They can hold any content inside of them but it does not provide us enough information.
 
-Semantic Tags clearly describe the meaning of the content they contain to everyone and make it easier for search engines and web crawlers to search for information effectively.
+Semantic Tags clearly describe the meaning of the content they contain to everyone and makes it easier for search engines and web crawlers to search for information effectively.
 
 Here are some common Semantic Tags :
 
@@ -194,7 +194,7 @@ The <a> tag defines a hyperlink. The href attribute specifies the URL of the pag
 
 The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
 
-## Use Alt tags in Images
+## Use Alt Tags in Images
 
 Search engines cannot determine what images are trying to convey. That’s when the ALT tag comes into play. The ALT represents what the image is : <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300" alt="Github Logo">
 
@@ -220,9 +220,9 @@ Here is the hierarchy of header tags:
 
 ## The Meta tag
 
-In terms of SEO ,<meta> tag is the most important tag which engines us to detect what kind a content your site is actually offering . <Meta> tag defines metadata about your html documents.
-If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then
-Here is the syntax :-
+In terms of SEO, the <meta> tag is the most important tag which engines us to detect what kind of content your site is offering. <Meta> tag defines metadata about your HTML documents.
+If my webpage contains data about languages like HTML, css, and javascript and I want to provide this information to my search engine then
+Here is the syntax:-
 
 <meta name="keywords" content= "HTML,CSS,JAVASCRIPT">
 If i want to describe the viewport for my website (how my website will appear). Then i'll use the following syntax in my head tag:-
@@ -232,15 +232,15 @@ If i want to describe the viewport for my website (how my website will appear). 
 
 ## Using Descriptive Anchor Text
 
-For better seo, it is better to use descriptive anchor text for internal links, instead of very short call to action links like "click here" or "this page".
+For better SEO, it is better to use descriptive anchor text for internal links, instead of a very short call to action links like "click here" or "this page".
 
 `<a href="http://example.com">Good descriptive anchor text</a>`
 
-For example you are creating a Portfolio site and you want to link to your twitter page or facebook page, make your anchor text be something like "My twitter page" or "My facebook page" or just something similar but descriptive.
+For example, you are creating a Portfolio site and you want to link to your Twitter page or Facebook page, make your anchor text be something like "My Twitter page" or "My Facebook page" or just something similar but descriptive.
 
-If your in a situation where you need to add a particular link in multiple places, it is thought a best practice to mix up the internal link anchor text quite a bit. Something like "facebook home page" and "my Facebook page" even though they might have different anchor text names, they still link to the same page.
+If you in a situation where you need to add a particular link in multiple places, it is thought a best practice to mix up the internal link anchor text quite a bit. Something like "Facebook home page" and "my Facebook page" even though they might have different anchor text names, they still link to the same page.
 
-What is explained above comes in really handy when you have two pages that share the same link. It is very good practice to give them seperate anchor text. [You can know more here](https://backlinko.com/hub/seo/internal-links)
+What is explained above comes in handy when you have two pages that share the same link. It is very good practice to give them separate anchor text. [You can know more here](https://backlinko.com/hub/seo/internal-links)
 
 ## Put Important Information in Lists
 
@@ -248,14 +248,14 @@ Lists <li> tags are a great way to break up blocks of text and highlight importa
 
 We have three types of lists: <ul> and <ol> and <dl>
 
-Creating an unordered list [<ul>] puts them in a bullets. 
+Creating an unordered list [<ul>] puts them in bullets. 
 For example:
 <ul>
   <li>Milk</li>
   <li>Tea</li>
 </ul>
 
-Creating an ordered list [<ol>] on the otherhand puts the items in that list in a sequential or hierarchical system.
+Creating an Ordered list [<ol>] on the other hand puts the items in that list in a sequential or hierarchical system.
 For example:
 <ol>
   <li>Coffee</li>
