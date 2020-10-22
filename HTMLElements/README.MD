@@ -204,7 +204,7 @@ The alt attribute provides an “alternative description” for the image. This 
     
 The alt description is also very helpful for search engines. Search engines have a hard time figuring out what the content of an image actually is. They are getting better at it, but identifying the subject of a photo or picture is extremely difficult. So search engines rely on the alt description to know what is actually in a picture (they also use the file name and other attributes). Additionally, in Google Image Search, the alt description is actually shown to the user.
 ### Example
-- '<img src="not-a-real-file-name.jpg" alt="Depending on your browser, you might see this message in place of the failed image.">'
+`<img src="not-a-real-file-name.jpg" alt="Depending on your browser, you might see this message in place of the failed image.">`
 
 
 ## Use Header Tags
