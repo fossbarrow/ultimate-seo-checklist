@@ -1,4 +1,4 @@
-# HTMLElements - SEO Checklist
+# HTML Elements - SEO Checklist
 
 Tags are small snippets of HTML coding that tell engines how to properly “read” your content. In fact, you can vastly improve search engine visibility by adding SEO tags in HTML.
 
@@ -56,7 +56,7 @@ Defines the description about the website. The description should be up to 160 c
 
 <br>
 
-## Use OpenGraph Meta Tags
+## Use Open Graph Meta Tags
 
 Open Graph meta tags are snippets of code that control how URLs are displayed when shared on social media.
 
