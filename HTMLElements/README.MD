@@ -262,28 +262,41 @@ Lists (`<li>`) tags are a great way to break up blocks of text and highlight imp
 We have three types of lists: `<ul>`, `<ol>`, and `<dl>`
 
 Creating an unordered list (`<ul>`) puts them in a bullets. 
-For example:
+For example, the following HTML code:
 ```
 <ul>
   <li>Milk</li>
   <li>Tea</li>
 </ul>
 ```
+will create this: 
+ - Milk
+ - Tea
+ 
 Creating an ordered list (`<ol>`) on the otherhand puts the items in that list in a sequential or hierarchical system.
-For example:
+For example, the following HTML code:
 ```
 <ol>
   <li>Coffee</li>
   <li>Tea</li>
 </ol>
 ```
+will create this: 
+1. Coffee
+2. Tea
+
 Creating a description list (`<dl>`) create a list of terms, with a description of each term immediately after it.
-For example: 
+For example, the following HTML code:
 ```
 <dl>
   <dt>Coffee</dt>
   <dd>black hot drink</dd>
 </dl>
 ```
-Lists tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
+will create this: 
+<dl>
+  <dt>Coffee</dt>
+  <dd>black hot drink</dd>
+</dl>
+List tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
 It is better to create true lists instead of symbols, such as dashes or hyphens as it is easier for the search engine bots to easily recognize them.
