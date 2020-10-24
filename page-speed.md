@@ -45,3 +45,4 @@ LCP is a user-centric metric that focuses on perceived load time of the content.
 * https://developers.google.com/search/docs/guides/page-experience 
 
 
+
