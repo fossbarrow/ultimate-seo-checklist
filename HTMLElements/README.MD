@@ -204,7 +204,31 @@ Here are some common Semantic Tags:
 
 ## The href Attribute
 
-The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href="https://www.google.com">Google</a>
+In HTML 5, the <a> tag defines hyperlinks to locations on the same page or other pages on the Web.
+
+The href attribute is the most important attribute of the <a> tag. The href attribute specifies a URL or URL fragment that provides the destination of the hyperlink. A URL fragment is a name preceded by a hash mark (#), which specifies an internal target location (an ID) within the current document.
+
+For example, for creating a link back to the top of the page, you can use the special fragment "top":
+`<a href="#top">Back to top</a>`
+ If in HTML 5 the href attribute is not specified, the anchor element <a> represents a placeholder hyperlink.
+
+All the time when you link to another website, your linked page gives that website some amount of rank credits. To prevent that, you need to add the rel=“nofollow” attribute to your <a> tag in HTML code. 
+
+The “nofollow” attribute “specifies the relationship between the current document and the linked document” , namely blocks rank credits that your page might give another website. The rel=“nofollow” attribute is only used if the href attribute is present in <a> tag.
+
+Browsers do not use “nofollow” attribute in any way; however, search engines use it to get more information about a link and to specify that the search spider should not follow that link. “Google does not transfer PageRank or anchor text across these links. Essentially, using nofollow causes us to drop the target links from our overall graph of the web.
+When you are creating your website’s internal links, the “nofollow” attribute helps you to set a crawling way of your pages to Googlebot that allows you to manage rank credits from page to page within your website and prevent a crawling recirculation. 
+
+You should make decision when to use the "nofollow" attribute for your links and when to allow search engines to follow your links. The primarily cases in which you might want to consider using “nofollow” attribute are:
+
+ * Paid links
+ * Forums
+ * Comments
+ * Pages you don’t want to give rank credits
+ * Other “untrusted content” 4
+
+Links is an important attribute of your website, regardless of their “follow” `<a href="www.example.com" rel="follow">Example</a>` or “nofollow” `<a href="www.example.com" rel="nofollow">Example</a>` status. Even if "nofollow" links don't boost the PageRank and don't help with a page’s placement in the search engine results, “nofollow” links still provide referral traffic.
+
 
 ## The src Attribute
 
