@@ -1,4 +1,4 @@
-# HTMLElements - SEO Checklist
+# HTML Elements - SEO Checklist
 
 Tags are small snippets of HTML coding that tell engines how to properly “read” your content. In fact, you can vastly improve search engine visibility by adding SEO tags in HTML.
 
@@ -17,6 +17,22 @@ Perhaps one of the most important HTML tags for SEO is that of the title. This i
 <title>Home | Fossbarrow</title>
 ```
 
+## The Meta Tag
+
+In terms of SEO, the `<meta>` tag is the most important tag where search engines detect what type of content your site is actually offering. This tag defines the metadata about your HTML documents. 
+
+For example, if my webpage contains data about languages like HTML, CSS, and JavaScript and I want to provide this information to my search engine, here's the syntax: 
+
+`<meta name="keywords" content= "HTML, CSS, JavaScript">`
+
+If I want to describe the viewport for my website (or how my website will appear on a mobile device, tablet, or computer screen), I can add the following syntax between the `<head>` tag:
+
+```
+<head>
+<meta name="viewport" content ="width=device=width, initial-scale=1.0"> 
+<head>
+```  
+  
 ## Use Meta Tags
 
 HTML uses `<meta>` tags to define metadata about a HTML document. These tags are placed inside the `<head></head>`section. Metadata is the information about your website. Metadata is not displayed on the webpage but it is parsed by web crawlers and search engines.
@@ -40,7 +56,7 @@ Defines the description about the website. The description should be up to 160 c
 
 <br>
 
-## Use OpenGraph Meta Tags
+## Use Open Graph Meta Tags
 
 Open Graph meta tags are snippets of code that control how URLs are displayed when shared on social media.
 
@@ -142,7 +158,7 @@ Defines the author of the website.
 
 Defines the keywords for search engines.
 
-`<meta name="keyword" content="HTML CSS Javascript" >`
+`<meta name="keywords" content="HTML, CSS, Javascript">`
 
 ### Viewport
 
@@ -158,8 +174,8 @@ Defines the Charset (Character Encoding) which your website uses.
 
 ## Use Body Tags
 
-The <body> tag defines the document's body.
-The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The `<body>` tag defines the document's body.
+The `<body>` element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
 ## Use Semantic Tags
 
@@ -167,7 +183,7 @@ Semantics in HTML means "role" or "purpose". When we use `<div></div>` tags they
 
 Semantic Tags clearly describe the meaning of the content they contain to everyone and make it easier for search engines and web crawlers to search for information effectively.
 
-Here are some common Semantic Tags :
+Here are some common Semantic Tags:
 
 | Attribute                   | Description                                                 |
 | --------------------------- | ----------------------------------------------------------- |
@@ -188,35 +204,11 @@ Here are some common Semantic Tags :
 
 ## The href Attribute
 
-In HTML 5, the <a> tag defines hyperlinks to locations on the same page or other pages on the Web.
-
-The href attribute is the most important attribute of the <a> tag. The href attribute specifies a URL or URL fragment that provides the destination of the hyperlink. A URL fragment is a name preceded by a hash mark (#), which specifies an internal target location (an ID) within the current document.
-
-For example, for creating a link back to the top of the page, you can use the special fragment "top":
-`<a href="#top">Back to top</a>`
- If in HTML 5 the href attribute is not specified, the anchor element <a> represents a placeholder hyperlink.
-
-All the time when you link to another website, your linked page gives that website some amount of rank credits. To prevent that, you need to add the rel=“nofollow” attribute to your <a> tag in HTML code. 
-
-The “nofollow” attribute “specifies the relationship between the current document and the linked document” , namely blocks rank credits that your page might give another website. The rel=“nofollow” attribute is only used if the href attribute is present in <a> tag.
-
-Browsers do not use “nofollow” attribute in any way; however, search engines use it to get more information about a link and to specify that the search spider should not follow that link. “Google does not transfer PageRank or anchor text across these links. Essentially, using nofollow causes us to drop the target links from our overall graph of the web.
-When you are creating your website’s internal links, the “nofollow” attribute helps you to set a crawling way of your pages to Googlebot that allows you to manage rank credits from page to page within your website and prevent a crawling recirculation. 
-
-You should make decision when to use the "nofollow" attribute for your links and when to allow search engines to follow your links. The primarily cases in which you might want to consider using “nofollow” attribute are:
-
- * Paid links
- * Forums
- * Comments
- * Pages you don’t want to give rank credits
- * Other “untrusted content” 4
-
-Links is an important attribute of your website, regardless of their “follow” or “nofollow” status. Even if "nofollow" links don't boost the PageRank and don't help with a page’s placement in the search engine results, “nofollow” links still provide referral traffic.
 
 
 ## The src Attribute
 
-The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
+The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
 
 ## Use Alt tags in Images
 
@@ -251,18 +243,6 @@ Here is the hierarchy of header tags:
 - `<h4></h4>` – supports points from `<h3>`.
 - `<h5></h5>` – not often used, but great for supporting points of `<h4>`.
 
-## The Meta tag
-
-In terms of SEO ,<meta> tag is the most important tag which engines us to detect what kind a content your site is actually offering . <Meta> tag defines metadata about your html documents.
-If my webpage contains the data about languages like html, css and javascript and i want to provide this information to my search engine then
-Here is the syntax :-
-
-<meta name="keywords" content= "HTML,CSS,JAVASCRIPT">
-If i want to describe the viewport for my website (how my website will appear). Then i'll use the following syntax in my head tag:-
-<head>
-<meta name="viewport" content ="width=device=width, initial-scale=1.0"> 
-<head>
-
 ## Using Descriptive Anchor Text
 
 For better seo, it is better to use descriptive anchor text for internal links, instead of very short call to action links like "click here" or "this page".
@@ -277,30 +257,47 @@ What is explained above comes in really handy when you have two pages that share
 
 ## Put Important Information in Lists
 
-Lists <li> tags are a great way to break up blocks of text and highlight important content.
+Lists (`<li>`) tags are a great way to break up blocks of text and highlight important content.
 
-We have three types of lists: <ul> and <ol> and <dl>
+We have three types of lists: `<ul>`, `<ol>`, and `<dl>`.
 
-Creating an unordered list [<ul>] puts them in a bullets. 
-For example:
+Creating an unordered list (`<ul>`) puts them in a bullets. 
+For example, the following HTML code:
+```
 <ul>
   <li>Milk</li>
   <li>Tea</li>
 </ul>
-
-Creating an ordered list [<ol>] on the otherhand puts the items in that list in a sequential or hierarchical system.
-For example:
+```
+will create this: 
+ - Milk
+ - Tea
+ 
+Creating an ordered list (`<ol>`) on the other hand puts the items in that list in a sequential or hierarchical system.
+For example, the following HTML code:
+```
 <ol>
   <li>Coffee</li>
   <li>Tea</li>
 </ol>
+```
+will create this: 
+1. Coffee
+2. Tea
 
-Creating a description list [<dl>] create a list of terms, with a description of each term immediately after it.
-For example: 
+Creating a description list (`<dl>`) create a list of terms, with a description of each term immediately after it.
+For example, the following HTML code:
+```
 <dl>
   <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
+  <dd>black hot drink</dd>
 </dl>
-
-Lists tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
+```
+will create this: 
+<dl>
+  <dt>Coffee</dt>
+  <dd>black hot drink</dd>
+</dl>
+List tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
 It is better to create true lists instead of symbols, such as dashes or hyphens as it is easier for the search engine bots to easily recognize them.
+
