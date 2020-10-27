@@ -227,10 +227,9 @@ You should make decision when to use the "nofollow" attribute for your links and
  * Pages you don’t want to give rank credits
  * Other “untrusted content” 4
 
-Links is an important attribute of your website, regardless of their “follow” or “nofollow” status. Even if "nofollow" links don't boost the PageRank and don't help with a page’s placement in the search engine results, “nofollow” links still provide referral traffic.
-### Example
-`<a href="www.example.com" rel="nofollow">Example</a>`
-`<a href="www.example.com" rel="follow">Example</a>`
+Links is an important attribute of your website, regardless of their “follow” `<a href="www.example.com" rel="follow">Example</a>` or “nofollow” `<a href="www.example.com" rel="nofollow">Example</a>` status. Even if "nofollow" links don't boost the PageRank and don't help with a page’s placement in the search engine results, “nofollow” links still provide referral traffic.
+
+
 ## The src Attribute
 
 The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
