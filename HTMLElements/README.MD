@@ -84,6 +84,16 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 
 <br>
 
+## Use Robots Tag
+It informs search engines which pages on your site should be indexed and which should not. Can use it to save your rankings in case you have to block some pages from indexing.
+<meta name="robots" content="index, follow">
+## Use of Robots Tag
+Noindex — prevents search engines from indexing a page;
+Nosnippet — prevents a description of the page to appear in search results as well as prevents caching of the page;
+Noarchive — prevents a cached copy of the page to appear in search results;
+Nofollow — prevents the search engine from following ALL the links on the page (that's why it is different from the nofollow attribute that is applied on an individual URL level);
+None — the same as "noindex, nofollow".
+
 ## Use Schema Markup
 Schema markup is an information you can add to your website in microdata HTML, RDFa, or JSON-LD formats (semantic vocabulary) that helps the search engines return more informative results for users. Schema tells the search engines what your data means, not just what it says.
 
@@ -202,6 +212,8 @@ Here are some common Semantic Tags:
 | `<details></details>`       | provides additional content details for the user to view    |
 | `<summary></summary>`       | describes a visible heading under the `<details>` element   |
 
+
+
 ## The href Attribute
 
 The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: <a href="https://www.google.com">Google</a>
@@ -209,6 +221,7 @@ The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the p
 ## The src Attribute
 
 The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
+
 
 ## Use Alt tags in Images
 
