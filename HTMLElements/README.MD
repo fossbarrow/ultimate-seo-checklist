@@ -84,14 +84,23 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 
 <br>
 
-## Use Robots Tag
+
+### Use Robots Tag
+
 It informs search engines which pages on your site should be indexed and which should not. Can use it to save your rankings in case you have to block some pages from indexing.
+
 <meta name="robots" content="index, follow">
-## Use of Robots Tag
+
+### Use of Robots Tag's Parameters
+
 Noindex — prevents search engines from indexing a page;
+
 Nosnippet — prevents a description of the page to appear in search results as well as prevents caching of the page;
+
 Noarchive — prevents a cached copy of the page to appear in search results;
+
 Nofollow — prevents the search engine from following ALL the links on the page (that's why it is different from the nofollow attribute that is applied on an individual URL level);
+
 None — the same as "noindex, nofollow".
 
 ## Use Schema Markup
