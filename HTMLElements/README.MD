@@ -85,7 +85,7 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 <br>
 
 
-### Use Robots Tag
+## Use Robots Tag
 
 It informs search engines which pages on your site should be indexed and which should not. Can use it to save your rankings in case you have to block some pages from indexing.
 
