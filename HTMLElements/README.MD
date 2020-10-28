@@ -232,7 +232,27 @@ Links is an important attribute of your website, regardless of their “follow�
 
 ## The src Attribute
 
-The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="300" height="300">
+The src attribute identifies an image by a URL. The image defined by the URL is retrieved by the browser and inserted into the document when the page loads.
+
+There are three different kinds of URLs that can be used in the src attribute:
+* Absolute URLs
+This is the most straightforward, and is the only way to go if you want to link to an external image (an image hosted on another site).
+`<img src="https://pt.wikipedia.org/wiki/Píton-reticulada#/media/Ficheiro:Python_reticulatus_сетчатый_питон-2.jpg">`
+
+* Relative URLs
+A relative URL does not include the domain name, and is relative to either the current page, or the current domain. If you begin the URL without a slash ( / ), it will be relative to the current page. If you begin with a slash, it will be relative to the domain.
+
+It is almost always the best idea to use source URLs which are relative to the domain, not the page. They will not break if the page content is moved or copied.
+
+Additionally, when linking to images on your own site, it is almost always best to use relative URLs rather than absolute URLs. This way, the URLs won’t break when you change domains which will happen automatically if you use a development or staging server in addition to your production one.
+`<img src="/wp-content/uploads/piton.jpg">`
+
+* Data URIs
+It is possible to encode content into a URI string. You then use the string as if it were a URL, and then the browser simply interprets it as if it were a file.
+You need a special encoding program to turn images or other files into Data URIs.
+Data URIs are not usually a great solution. Most meaningful images are going to create insanely long strings  and they actually don’t load as fast as external files.
+They do cut down on HTTP requests to the server, which you may (or may not) care about. They can also be useful in situations where external images might not get loaded, such as in emails or in self-contained documents to be read offline.
+
 
 ## Use Alt tags in Images
 
