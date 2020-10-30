@@ -17,6 +17,14 @@ Perhaps one of the most important HTML tags for SEO is that of the title. This i
 <title>Home | Fossbarrow</title>
 ```
 
+##Use of Canonical Tag
+
+When you have a few pages with identical content, you can use a canonical tag to tell search engines which page should be prioritized.
+
+First of all, it not only tells search engines which page out of a few similar ones is more important, it also shows them that such pages are not duplicate content. As duplicate content is punished by death penalized, this tag is a killer feature.
+
+Second, it prevents cannibalization that happens when pages that are less important than other similar ones get higher rankings.
+
 ## The Meta Tag
 
 In terms of SEO, the `<meta>` tag is the most important tag where search engines detect what type of content your site is actually offering. This tag defines the metadata about your HTML documents. 
