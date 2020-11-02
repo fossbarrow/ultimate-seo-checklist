@@ -84,6 +84,25 @@ Twitter has its own `<meta>` tags that are similar to the Open Graph protocol, b
 
 <br>
 
+
+## Use Robots Tag
+
+It informs search engines which pages on your site should be indexed and which should not. Can use it to save your rankings in case you have to block some pages from indexing.
+
+<meta name="robots" content="index, follow">
+
+### Use of Robots Tag's Parameters
+
+Noindex — prevents search engines from indexing a page;
+
+Nosnippet — prevents a description of the page to appear in search results as well as prevents caching of the page;
+
+Noarchive — prevents a cached copy of the page to appear in search results;
+
+Nofollow — prevents the search engine from following ALL the links on the page (that's why it is different from the nofollow attribute that is applied on an individual URL level);
+
+None — the same as "noindex, nofollow".
+
 ## Use Schema Markup
 Schema markup is an information you can add to your website in microdata HTML, RDFa, or JSON-LD formats (semantic vocabulary) that helps the search engines return more informative results for users. Schema tells the search engines what your data means, not just what it says.
 
@@ -202,6 +221,8 @@ Here are some common Semantic Tags:
 | `<details></details>`       | provides additional content details for the user to view    |
 | `<summary></summary>`       | describes a visible heading under the `<details>` element   |
 
+
+
 ## The href Attribute
 
 In HTML 5, the <a> tag defines hyperlinks to locations on the same page or other pages on the Web.
@@ -252,6 +273,7 @@ It is possible to encode content into a URI string. You then use the string as i
 You need a special encoding program to turn images or other files into Data URIs.
 Data URIs are not usually a great solution. Most meaningful images are going to create insanely long strings  and they actually don’t load as fast as external files.
 They do cut down on HTTP requests to the server, which you may (or may not) care about. They can also be useful in situations where external images might not get loaded, such as in emails or in self-contained documents to be read offline.
+
 
 
 ## Use Alt tags in Images
