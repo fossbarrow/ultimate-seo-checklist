@@ -34,4 +34,15 @@ Disallow:
 
 ```
 
+# What happens if there is no robots txt?
+
+  The purpose of a robots.txt file is to keep crawlers out of certain parts of your website. Not having one should result in all your content being indexed.
+
+The implication from the first comment on that Meta question was that the robots.txt file existed but was inaccessible (for whatever reason), rather than not being there at all. That might cause the web crawlers some issues, but that's speculation.
+
+## If the robots.txt file is missing in the root directory of a website, how are things treated as 
+ 1:- The site is not indexed at all
+ 
+ 2:- The site is indexed without any restrictions
+
 
