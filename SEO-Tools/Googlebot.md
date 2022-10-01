@@ -2,7 +2,7 @@
 
 Googlebot is a web crawler (a.k.a., robot or spider) that scrapes data from webpages.
 
-Googlebot is just one of many web crawlers. Every search engine has their own branded spider. In the SEO world, we refer to these branded bot names as “user agents.”
+Googlebot is just one of many web crawlers. Every search engine has its own branded spider. In the SEO world, we refer to these branded bot names as “user agents.”
 
 We will get into user agents later, but for now, just understand that we’re referring to user agents as a specific web crawling bot. Some of the most common user agents include:
 
@@ -14,7 +14,7 @@ We will get into user agents later, but for now, just understand that we’re re
 
 # How Does Googlebot Work?
 
-We can’t start to optimize for Googlebot until we understand how it discovers, reads, and ranks webpages.
+We can’t start to optimize for Googlebot until we understand how it discovers, reads, and ranks web pages.
 
 ## How Google’s Crawler Discovers Webpages?
 
@@ -35,7 +35,7 @@ This is a simplified version of how Googlebot works. To learn more, you can read
 
 Google has come a long way with their site rendering. The goal of Googlebot is to render a webpage the same way a user would see it.
 
-To test how Google views your page, check out the Fetch and Render tool in Search Console. This will give you a Googlebot view vs. User view. This is useful for finding out how Googlebot views your webpages.
+To test how Google views your page, check out the Fetch and Render tool in Search Console. This will give you a Googlebot view vs. User view. This is useful for finding out how Googlebot views your web pages.
 
 ## Technical Ranking Factors
 
@@ -47,7 +47,7 @@ If you’re a technical SEO professional thinking about the future of SEO, then 
 
 When Google tells us to make a great site, they mean it. Yes, that’s a vague statement from Google, but at the same time, it’s very accurate.
 
-If you can satisfy users with an intuitive and helpful website, while also appeasing Googlebot’s requirements, you may experience more organic growth.
+If you can satisfy users with an intuitive and helpful website while also appeasing Googlebot’s requirements, you may experience more organic growth.
 
 ### User Experience vs. Crawler Experience
 
@@ -58,13 +58,13 @@ When creating a website, who are you looking to satisfy? Users or Googlebot?
 
 **Long answer**: This is a hot debate that can cause tension between UX designers, web developers, and SEO pros. However, this is also an opportunity for us to work together to better understand the balance between user experience and crawler experience.
 
-UX designers typically have users’ best interest in mind, while SEO professionals are looking to satisfy Google. In the middle, we have web developers trying to create the best of both worlds.
+UX designers typically have users’ best interests in mind, while SEO professionals are looking to satisfy Google. In the middle, we have web developers trying to create the best of both worlds.
 
 As SEO professionals, we need to learn the importance of each area of the web experience.
 
 Yes, we should be optimizing for the best user experience. However, we should also optimize our websites for Googlebot (and other search engines).
 
-Luckily, Google is very user-focused. Most modern SEO tactics are focused at providing a good user experience.
+Luckily, Google is very user-focused. Most modern SEO tactics are focused on providing a good user experience.
 
 The following 10 Googlebot optimization tips should help you win over your UX designer and web developer at the same time.
 
@@ -73,7 +73,7 @@ The following 10 Googlebot optimization tips should help you win over your UX de
 <hr>
 The robots.txt is a text file that is placed in the root directory of a website. These are one of the first things that Googlebot looks for when crawling a site. It’s highly recommended to add a robots.txt to your site and include a link to your sitemap.xml.
 
-There are many ways to optimize your robots.txt file, but it’s important to take caution doing so.
+There are many ways to optimize your robots.txt file, but it’s important to take caution in doing so.
 
 A developer might accidentally leave a sitewide disallow in robots.text, blocking all search engines from crawling sites when moving a dev site to the live site. Even after this is corrected, it could take a few weeks for organic traffic and rankings to return.
 
@@ -111,8 +111,11 @@ For efficiency, it’s recommended that your use JSON-LD to implement structured
 ## 5. Canonicalization
 
 <hr>
-A big problem for large sites, especially ecommerce, is the issue of duplicate webpages.
+A big problem for large sites, especially e-commerce, is the issue of duplicate web pages.
 
-There are many practical reasons to have duplicate webpages, such as different language pages.
+There are many practical reasons to have duplicate web pages, such as different language pages.
 
 If you’re running a site with duplicate pages, it’s crucial that you identify your preferred webpage with a canonical tag and hreflang attribute.
+
+
+
