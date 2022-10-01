@@ -23,7 +23,7 @@
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to be, as well as learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
