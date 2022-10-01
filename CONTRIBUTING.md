@@ -8,7 +8,7 @@ We accept contributions via Pull Requests.
 
 This repository serves as a database for info regarding how to improve SEO, with examples and details about what it actually does and why it's good for SEO.
 
-A pull request should _not_ contain a list of things that's good for SEO, but rather subjects featuring an example, a detail description of how it's used and why it's good for SEO.
+A pull request should _not_ contain a list of things that are good for SEO, but rather subjects featuring an example, a detailed description of how it's used, and why it's good for SEO.
 
 
 Example: [Robots.txt for SEO](https://github.com/fossbarrow/ultimate-seo-checklist/tree/main/Robots.txt) 
@@ -34,3 +34,6 @@ Example: [Robots.txt for SEO](https://github.com/fossbarrow/ultimate-seo-checkli
 
 
 **Happy coding**!
+
+
+

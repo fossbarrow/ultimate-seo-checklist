@@ -17,13 +17,13 @@
 
  This repository contains a set of folders, where the directory structure is meant to label each section into groups.
 
- Visit the directories respectively to get some real, nice, tips given from people from all around the globe!
+ Visit the directories respectively to get some real, nice tips given from people from all around the globe!
 
 </h4>
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to be, you can learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
@@ -33,3 +33,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 - [All Contributors](../../contributors)
 
 <p align="center">Made with :heart:  for :earth_asia:  Everyone!</p>
+
+
+
