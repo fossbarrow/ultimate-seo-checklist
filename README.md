@@ -15,7 +15,7 @@
 
 <h4>
 
- This repository contains a set of folders, where the directory structure is meant to label each section into groups.
+ This repository contains a set of folders. The directory structure is intended to label each section into groups.
 
  Visit the directories, respectively, to get some real, nice, tips given by people from all around the globe!
 
