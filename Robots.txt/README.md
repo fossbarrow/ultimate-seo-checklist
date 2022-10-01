@@ -16,9 +16,9 @@ The format for disallowing user agents is as follows: `User-agent: <user-agent-n
 
 You can use a wildcard(`*`) for the **user-agent-name** in order to match any and all user-agents. If you leave the **disallow string** blank, you're giving the web-crawler permission to crawl through the entirety of your website. Therefore, the most open rule would be `User-agent: * Disallow: `, and the most restrictive rule would be `User-agent: * Disallow: /`
 
-You can restrict different parts of your website by specifying a url/directory within your website. For example, having: `User-agent: googlebot Disallow: /_hidden` in your robots.txt file, would prohibit googlebot from crawling any content within your site's `/_hidden` directory.
+You can restrict different parts of your website by specifying a url/directory within your website. For example, having: `User-agent: googlebot Disallow: /_hidden` in your robots.txt file, would prohibit Googlebot from crawling any content within your site's `/_hidden` directory.
 
-Your robots.txt file is valid as long as it has at least one user-agent rule, although you can add as many rules as you like. Each user-agent can have multiple disallows, and each robots.txt can include multiple user-agent rules. User-agent rules must be seperated by a line break, but disallows can go directly below the previous.
+Your robots.txt file is valid as long as it has at least one user-agent rule, although you can add as many rules as you like. Each user-agent can have multiple disallows, and each robots.txt can include multiple user-agent rules. User-agent rules must be separated by a line break, but disallows can go directly below the previous.
 
 
 ```
@@ -33,3 +33,5 @@ User-agent agent-3
 Disallow:
 
 ```
+
+

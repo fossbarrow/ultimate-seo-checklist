@@ -17,7 +17,7 @@
 
  This repository contains a set of folders. The directory structure is intended to label each section into groups.
 
- Visit the directories, respectively, to get some real, nice, tips given by people from all around the globe!
+ Visit the directories, respectively, to get some real nice tips, given by people from all around the globe!
 
 </h4>
 
@@ -33,3 +33,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 - [All Contributors](../../contributors)
 
 <p align="center">Made with :heart:  for :earth_asia:  Everyone!</p>
+
+
+

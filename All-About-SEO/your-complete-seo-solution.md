@@ -1,6 +1,6 @@
-## what you can do to rank your website ?
+## What can you do to rank your website?
 
-Here are the few points to consider:
+Here are a few points to consider:
 
 ## Daily ranking checks
 
@@ -16,7 +16,7 @@ Show search engines that your web pages are relevant. SEOprofiler offers multipl
 
 ## Off-page optimization
 
-Optimize the links that point to your site and remove bad links. Backlinks from high authory sites will surely boost your rankings. Improving the backlink structure of your web pages can help you get higher rankings on Google and other search engines.
+Optimize the links that point to your site and remove bad links. Backlinks from high authority sites will surely boost your rankings. Improving the backlink structure of your web pages can help you get higher rankings on Google and other search engines.
 
 ## Mobile SEO
 
@@ -46,17 +46,17 @@ Search engines like Google and Bing see backlinks as votes of confidence. Genera
 
 #### Details about the addition
 
-Backlinks are links created on a page of a website to link to another page on another website usually because of the usefulness of the content to the users who would be clicking on that link.
+Backlinks are links created on a page of a website to link to another page on another website, usually because of the usefulness of the content to the users who would be clicking on that link.
 
 #### An example of Use
 
-An example of this is when a website like bbc.com has a link on their website that refers people to a piece of content or a useful resource on another website, that link is referred to as a backlink.
+An example of this is when a website like bbc.com has a link on its website that refers people to a piece of content or a useful resource on another website; that link is referred to as a backlink.
 
 #### Hyperlinked text backlink
 
 An example of this is a website like the **BBC** linking to the website tooxclusive.com. A top music and entertainment news blog in Nigeria like this below.
 
-_To get the latest music in Nigeria, according to traffic by Alexa.com, one of the best websites to visit is [Tooxclusive](tooxclusive.com). According to insights from interviews conducted from a survey, it is always updated with the latest music from A-list music celebrities and entertainment news in the country._
+_To get the latest music in Nigeria, according to traffic by Alexa.com, one of the best websites to visit is [Tooxclusive](tooxclusive.com). According to insights from interviews conducted in a survey, it is always updated with the latest music from A-list music celebrities and entertainment news in the country._
 
 The code will look something like this below.
 
@@ -69,3 +69,6 @@ The target blank attribute ensures that the website opens up in a new tab on the
 1. It improves ranking
 2. It helps to build the discoverability of a website.
 3. It helps to increase referral traffic to a website.
+
+
+
