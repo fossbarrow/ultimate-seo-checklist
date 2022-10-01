@@ -9,7 +9,7 @@ It is good because...
 
 **Checklist**
 
-Please make sure you got all of these three points in your PR, otherwise the PR will be rejected.
+Please make sure all of these three points in your PR, otherwise the PR will be rejected.
 
 * Details about the addition  [?]
 * An example about usage  [?]
