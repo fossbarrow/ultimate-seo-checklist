@@ -2,36 +2,31 @@
 * https://ahrefs.com - Ahrefs.com
 * https://majestic.com - Majestic.com
 * https://moz.com/researchtools/ose/ - MOZ Open Site Explorer
-* https://monitorbacklinks.com - Monitor Backlinks - The easiest way to check your bad links and your competitor's good links.
-* http://www.openlinkprofiler.org/ - OpenLinkProfiler - Get an in-depth analysis of the freshest live backlinks.
-* http://www.linkresearchtools.com/tools/dtox/ - Link Detox  - Recover and protect your site from Google Penguin and Manual Actions.
-* http://urlprofiler.com - Urlprofiler - A powerful tool for SEOs to quickly audit links
+* https://monitorbacklinks.com - The easiest way to check your bad links and your competitor's good links.
+* http://www.openlinkprofiler.org/ - Get an in-depth analysis of the freshest live backlinks.
+* http://www.linkresearchtools.com/tools/dtox/ - Recover and protect your site from Google Penguin and Manual Actions.
+* http://urlprofiler.com - A powerful tool for SEOs to quickly audit links
 
 ## Competitor Analysis
-* http://analyzeid.com - Analyze ID - Find other websites owned by the same person. Uses Adsense, Google Analytics & more as digital finger prints to track the same owner.
-* https://serpstat.com - Serpstat - All-in-One SEO platform for professionals
-* http://buzzsumo.com - Buzzsumo - Competitor Analysis|Content Marketing
-* https://www.semrush.com - Semrush -  Сompetitive Research and Business Intelligence Software
-* https://www.similarweb.com - Similarweb - Get insights for any website or app - Digital Market Intelligence for Your Business
-* https://knowlium.com - Knowlium - Competitive Intelligence Software
-* http://spyonweb.com - Spyonweb - We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner.
-* https://www.quantcast.com - Quantcast - Understand your audience Find your next customer
-* https://moz.com/tools/keyword-difficulty - Moz Pro Keyword Explorer and SERP Analysis Tool - Easy Keyword Research with Accurate Results in Less Time.
-* https://moz.com/blog/illustrated-seo-competitive-analysis-workflow - Guide: The Illustrated SEO Competitive Analysis Workflow
+* http://analyzeid.com -  Find other websites owned by the same person. Uses Adsense, Google Analytics & more as digital finger prints to track the same owner.
+* https://serpstat.com - All-in-One SEO platform for professionals
+* http://buzzsumo.com - Competitor Analysis|Content Marketing
+* https://www.semrush.com - Сompetitive Research and Business Intelligence Software
+* https://www.similarweb.com - Get insights for any website or app - Digital Market Intelligence for Your Business
+* https://knowlium.com - Competitive Intelligence Software
+* http://spyonweb.com -  They take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner.
+* https://www.quantcast.com - Understand your audience Find your next customer
+* https://moz.com/tools/keyword-difficulty Easy Keyword Research with Accurate Results in Less Time.
 * http://www.bruceclay.com/seo/search-engine-optimization.htm - Bruce Clay's Search Engine Optimization SEO Tutorial
 
 ## Content Marketing
-* https://contently.com - Contently - Content marketing platform
-* http://www.newscred.com - Newscred - Easily manage content creation, distribution, and measurement – across channels, teams, and global markets – all on a single platform.
-* https://kapost.com - Kapost - B2B Content Marketing Platform
-* http://www.snapapp.com - Snapapp - Interactive Content Made Easy
-* https://www.scripted.com - Scripted - Scripted has thousands of expert writers ready to supercharge your inbound traffic with outstanding blogs, stellar white papers, and more.
-* https://percolate.com - Percolate - Percolate powers successful multi-channel marketing. From simplifying content creation to measuring campaign impact, Percolate helps you work smarter and faster at every step of your marketing.
-* http://visual.ly - Visual.ly - Create stunning inforgraphics and data visualizations
-* http://www.skyword.com - Skyword - Thousands of skilled and influential writers, designers, and videographers to help you tell your story.
-* https://www.textbroker.com - Textbroker - Article and content writing service
-* http://www.shareist.com - Shareist - Shareist: Schedule, Repeat, and Recycle Your Social Media Posts
-* https://wordcounter.net,Wordcounter - Word count and a character count tool.
+* https://contently.com - Content marketing platform
+* http://www.newscred.com - Easily manage content creation, distribution, and measurement – across channels, teams, and global markets – all on a single platform.
+* http://www.snapapp.com - Interactive Content Made Easy
+* https://percolate.com - Percolate powers successful multi-channel marketing. From simplifying content creation to measuring campaign impact, Percolate helps you work smarter and faster at every step of your marketing.
+* http://visual.ly - Create stunning inforgraphics and data visualizations
+* http://www.skyword.com - Thousands of skilled and influential writers, designers, and videographers to help you tell your story.
+* http://www.shareist.com - Shareist: Schedule, Repeat, and Recycle Your Social Media Posts
 
 ## SEO Crawlers
 * https://www.screamingfrog.co.uk/seo-spider/ - Screaming Frog SEO Spider Tool - The SEO Spider is a desktop program you can install locally on PC, Mac or Linux which crawls websites’ links, images, CSS, script and apps to evaluate onsite SEO
