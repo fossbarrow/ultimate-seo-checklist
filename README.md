@@ -13,13 +13,15 @@
 
 </p>
 
-<h4>
+> Ultimate SEO checklist: A set of folders by subject to serve as a database of useful SEO tips!
 
+
+```
  This repository contains a set of folders. The directory structure is intended to label each section into groups.
-
+ 
  Visit the directories, respectively, to get some real nice tips, given by people from all around the globe!
+```
 
-</h4>
 
 ## Contributing
 
