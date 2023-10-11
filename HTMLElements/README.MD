@@ -368,4 +368,18 @@ will create this:
 List tags make it easier for users scanning the page to notice important information, and lists are a cue for both assistive-technology users and search engines about the significance of the content.
 It is better to create true lists instead of symbols, such as dashes or hyphens, as it is easier for the search engine bots to easily recognize them.
 
+## Accessibility
 
+For better SEO and seeking to make our applications increasingly robust and accessible, we always need to pay attention to Accessibility, and accessibility can be approached in a few ways, such as:
+
+- Sites should be accessible to keyboard, mouse, and touch screen users, and any other way users access the web, including screen readers and voice assistants like Alexa and Google Home.
+- Applications should be understandable and usable by people regardless of auditory, visual, physical, or cognitive abilities.
+- Sites should also not cause harm: web features like motion can cause migraines or epileptic seizures.
+
+When we think about our HTML elements and building a great application, we can remember to cover some topics to have good accessibility:
+
+- Semantic HTML.
+- Tabindex.
+- Aria attributes.
+- Roles (functions)
+- Keyboard navigation and screen readers.
